@@ -12,7 +12,7 @@
   background-color: #ff9800;
   color: white;
   display: flex;
-  justify-content: center;   /* center logo */
+  justify-content: center;  
   align-items: center;
   padding: 1rem 2rem;
   z-index: 1000;
@@ -26,11 +26,11 @@
   margin-bottom: 0.3rem;
 }
 
-/* Nav links */
+
 .nav-links {
   display: flex;
   gap: 1.5rem;
-  margin-left: auto; /* push links to the right in desktop view */
+  margin-left: auto; 
 }
 
 .nav-links a {
@@ -82,7 +82,7 @@
   margin-top: 2rem;
 }
 
-/* Responsive Design */
+
 @media (max-width: 456px) {
   .navbar {
     flex-direction: column;
@@ -91,12 +91,12 @@
   }
 
   .nav-links {
-    margin-left: 0; /* remove auto push */
+    margin-left: 0; 
     margin-top: 0.5rem;
     flex-direction: column;
     gap: 0.8rem;
     width: 100%;
-    align-items: center; /* center links */
+    align-items: center; 
   }
 
   .nav-links a {
